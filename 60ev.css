@@ -1,0 +1,62 @@
+body{
+	font-family: Arial, sans-serif;
+	text-align: justify;
+	background-image: url(60evback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	color: #1BA098;
+}
+
+section {
+	font-family: Arial, sans-serif;
+	margin: auto;
+	width: 80%;
+	max-width: 1300px;
+	text-align: justify;
+}
+.hambi{
+    margin-bottom: 40px;
+    background-color: #701c1c;
+}
+
+.nav-link{
+	color: #ff4305;
+}
+
+.nav-link:hover{
+    color: rgb(73, 52, 13);
+}
+
+.slide{
+    border: 5px solid #701c1c;
+	border-radius: 5px;
+    max-height: 1300px;
+    margin-bottom: 100px;
+}
+
+.container-fluid{
+	max-block-size: 400px;
+}
+
+.card{
+    margin-bottom: 50px;
+    float: right;
+    margin: 6%;
+    max-width: 30rem;
+    min-height: 50rem;
+    background-color: #1f4707;
+    color: #d3d4d4;
+}
+
+.btn{
+    max-width: 35%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: black;
+    border: black;
+}
+.btn:hover{
+    background-color: darkgrey;
+    border: darkgray;
+}

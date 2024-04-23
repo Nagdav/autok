@@ -1,0 +1,65 @@
+body{
+	font-family: Arial, sans-serif;
+	text-align: justify;
+	background-color: #051622;
+	color: #1BA098;
+}
+
+section {
+	font-family: Arial, sans-serif;
+	margin: auto;
+	width: 90%;
+	max-width: 1000px;
+	text-align: justify;
+	background-color: #051622;
+	color: #1BA098;
+}
+
+h1{
+	color: #DEB992;
+}
+
+.hambi{
+    margin-bottom: 40px;
+    background-color: #1BA098;
+}
+
+.nav-link{
+	color: #051622;
+}
+
+.nav-link:hover{
+    color: rgb(216, 216, 216);
+}
+
+img {
+	border: 2px solid #DEB992;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px 15px;
+	width: 20em; 
+	background-color: #051622;
+	min-width: 300py;
+}
+
+.balra {
+	float: left;
+}
+
+@media screen and (max-width:600px) {
+  .balra, .jobbra {
+	float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.jobbra{
+	float: right;
+}
+
+.container-fluid{
+	max-block-size: 400px;
+}
+

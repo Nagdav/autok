@@ -1,0 +1,80 @@
+body{
+	font-family: Arial, sans-serif;
+	text-align: justify;
+	background-image: url(80evback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	color: #1BA098;
+}
+
+section {
+	font-family: Arial, sans-serif;
+	margin: auto;
+	width: 80%;
+	max-width: 1300px;
+	text-align: justify;
+}
+.hambi{
+    margin-bottom: 40px;
+    background-color: #000000;
+}
+
+.nav-link{
+	color: #ffffff;
+}
+
+.nav-link:hover{
+    color: #9507a8;
+}
+
+.slide{
+    border: 5px solid #8c00ff;
+	border-radius: 5px;
+    max-height: 1300px;
+    margin-bottom: 100px;
+}
+
+.carousel-item{
+	width: 100%;
+	height: 40rem;
+	overflow: hidden;
+}
+
+.keppek{
+	width: 100%;
+	height: 15rem;
+	overflow: hidden;
+}	
+
+img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container-fluid{
+	max-block-size: 400px;
+}
+
+.card{
+    margin-bottom: 50px;
+    float: right;
+    margin: 6%;
+    max-width: 30rem;
+    min-height: 50rem;
+    background-color: #79257c;
+    color: #d3d4d4;
+}
+
+.btn{
+    max-width: 35%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    background-color: black;
+    border: black;
+}
+.btn:hover{
+    background-color: darkgrey;
+    border: darkgray;
+}
